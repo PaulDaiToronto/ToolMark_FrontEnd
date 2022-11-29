@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "I6NaQMMk231thULQJ1VRMffvf2D9j4/6UzzAJNnrNZ4FupjoNu3NJatsmF6+lIDkMwg1EdxyXCN7JG2upT0dVQ==",
+  "success": true,
+  "projectFilePath": "C:\\3DVCM\\z_Work\\z_Projects\\TMAPIConsume\\TMAPIConsume\\TMAPIConsume.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

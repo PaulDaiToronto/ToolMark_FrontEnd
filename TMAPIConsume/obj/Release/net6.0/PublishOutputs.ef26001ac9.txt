@@ -1,0 +1,9 @@
+C:\3DVCM\z_Work\z_Projects\TMAPIConsume\TMAPIConsume\obj\Release\net6.0\PubTmp\Out\TMAPIConsume.exe
+C:\3DVCM\z_Work\z_Projects\TMAPIConsume\TMAPIConsume\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\3DVCM\z_Work\z_Projects\TMAPIConsume\TMAPIConsume\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\3DVCM\z_Work\z_Projects\TMAPIConsume\TMAPIConsume\obj\Release\net6.0\PubTmp\Out\libman.json
+C:\3DVCM\z_Work\z_Projects\TMAPIConsume\TMAPIConsume\obj\Release\net6.0\PubTmp\Out\TMAPIConsume.dll
+C:\3DVCM\z_Work\z_Projects\TMAPIConsume\TMAPIConsume\obj\Release\net6.0\PubTmp\Out\TMAPIConsume.deps.json
+C:\3DVCM\z_Work\z_Projects\TMAPIConsume\TMAPIConsume\obj\Release\net6.0\PubTmp\Out\TMAPIConsume.runtimeconfig.json
+C:\3DVCM\z_Work\z_Projects\TMAPIConsume\TMAPIConsume\obj\Release\net6.0\PubTmp\Out\TMAPIConsume.pdb
+C:\3DVCM\z_Work\z_Projects\TMAPIConsume\TMAPIConsume\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll

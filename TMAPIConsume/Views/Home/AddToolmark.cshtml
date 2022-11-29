@@ -1,0 +1,70 @@
+﻿@model Toolmark
+@{
+    Layout = "_Layout"; ViewBag.Title = "Add a Toolmark Workcase";
+}
+
+<h2>Add a toolmark workcase <a asp-action="Index" class="btn btn-sm btn-secondary">Back</a></h2>
+<form asp-action="AddToolmark" method="post">
+    <div class="form-group">
+        <label for="Name">Case Number:</label>
+        <input class="form-control" name="CaseNumber" />
+    </div>
+    <div class="form-group">
+        <label for="StartLocation">Category:</label>
+        <input class="form-control" name="Category" />
+    </div>
+
+    <div class="form-group">
+        <label for="EndLocation">Email:</label>
+        <input class="form-control" name="Email" />
+    </div>
+
+    <div class="form-group">
+        <label for="EndLocation">Date Of Collected:</label>
+        <input class="form-control" name="DateOfCollected" />
+    </div>
+
+    <div class="form-group">
+        <label for="EndLocation">Image Name:</label>
+        <input class="form-control" name="ImageFileName" />
+    </div>
+
+    <div class="form-group">
+        <label for="EndLocation">Note:</label>
+        <input class="form-control" name="Note" />
+    </div>
+
+    <div class="text-center panel-body">
+        <button type="submit" class="btn btn-sm btn-primary">Add</button>
+    </div>
+</form>
+
+<h3 class="alert">@ViewBag.Result</h3>
+
+@if (Model != null)
+{
+    <h2>Toolmark workcase</h2>
+    <table class="table table-sm table-striped table-bordered m-2">
+        <thead>
+            <tr>
+                <th>Case Number</th>
+                <th>Category</th>
+                <th>Email</th>
+                <th>Date Of Collected</th>
+                <th>Image Name</th>
+                <th>Note</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.CaseNumber</td>
+                <td>@Model.Category</td>
+                <td>@Model.Email</td>
+                <td>@Model.DateOfCollected</td>
+                <td>@Model.ImageFileName</td>
+                <td>@Model.Note</td>
+
+            </tr>
+        </tbody>
+    </table>
+}
